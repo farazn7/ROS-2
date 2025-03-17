@@ -1,5 +1,5 @@
-- DDS, or Data Distribution Service, is a middleware protocol and API standard for data-centric connectivity. It enables scalable, real-time, dependable, high-performance, and interoperable data exchanges using a publish-subscribe pattern. DDS employs the Interface Description Language (IDL) defined by the Object Management Group (OMG) for message definition and serialization.
-- The consideration to integrate DDS into ROS stems from the need for an end-to-end middleware solution. Such a solution reduces the amount of custom code ROS needs to maintain and leverages existing, well-documented standards. DDS's design aligns closely with ROS's requirements, offering features like distributed discovery and a publish-subscribe transport mechanism.
+DDS, or Data Distribution Service, is a middleware protocol and API standard for data-centric connectivity. It enables scalable, real-time, dependable, high-performance, and interoperable data exchanges using a publish-subscribe pattern. DDS employs the Interface Description Language (IDL) defined by the Object Management Group (OMG) for message definition and serialization.
+The consideration to integrate DDS into ROS stems from the need for an end-to-end middleware solution. Such a solution reduces the amount of custom code ROS needs to maintain and leverages existing, well-documented standards. DDS's design aligns closely with ROS's requirements, offering features like distributed discovery and a publish-subscribe transport mechanism.
 
  **Core Features of DDS**
 
