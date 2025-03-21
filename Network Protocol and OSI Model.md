@@ -199,10 +199,10 @@ Each step involves various layers handling different aspects of data processing,
 ---
 
 ## **Key Takeaways**
-✔ **TX (Transmit) Process** involves **data encapsulation**, queuing (`k_fifo`), and transmission via device drivers.
-✔ **RX (Receive) Process** includes **data extraction**, queuing, and socket-based delivery.
-✔ **Layered Architecture** ensures efficient, priority-based networking in Zephyr.
-✔ **Traffic Classification** supports up to **8 TX/RX queues** for managing different packet priorities.
+ - **TX (Transmit) Process** involves **data encapsulation**, queuing (`k_fifo`), and transmission via device drivers.
+ - **RX (Receive) Process** includes **data extraction**, queuing, and socket-based delivery.
+ - **Layered Architecture** ensures efficient, priority-based networking in Zephyr.
+ - **Traffic Classification** supports up to **8 TX/RX queues** for managing different packet priorities.
 
 This structured approach ensures reliable and efficient data communication in embedded networking systems.
 
